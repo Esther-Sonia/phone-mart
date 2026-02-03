@@ -172,7 +172,7 @@ function App() {
       <footer className="bg-slate-900 text-white py-8 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <p className="text-gray-400">© 2026 PhoneMart. All rights reserved.</p>
+            <p className="text-black-400">© 2026 PhoneMart. All rights reserved.</p>
             <div className="mt-4 space-x-6">
               <a href="#privacy" className="text-gray-400 hover:text-white transition">Privacy Policy</a>
               <a href="#terms" className="text-gray-400 hover:text-white transition">Terms of Service</a>
