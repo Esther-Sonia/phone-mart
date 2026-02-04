@@ -25,7 +25,7 @@ function Navbar(props: NavbarProps) {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-300 hover:text-white transition duration-200 font-medium">
+            <a href="#home" className="text-gray-300 hover:text-red transition duration-200 font-medium">
               Home
             </a>
             <a href="#products" className="text-gray-300 hover:text-white transition duration-200 font-medium">
