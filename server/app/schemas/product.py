@@ -12,7 +12,7 @@ class ProductSpecs(BaseModel):
 class ProductBase(BaseModel):
     name: str = Field(..., min_length=1, max_length=200)
     brand: str = Field(..., min_length=1, max_length=100)
-    price: float = Field(..., gt=0)
+    price: float = Field(ge=0)
     image: str = Field(..., min_length=1)
     specs: ProductSpecs
     stock: int = Field(..., ge=0)
