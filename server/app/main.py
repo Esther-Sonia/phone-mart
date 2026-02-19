@@ -6,6 +6,7 @@ from app.config import settings
 from app.database import engine, Base, get_db
 from app.routes import products, payments
 from app.utils.helpers import seed_products
+from app.routes.mpesa import router as mpesa_router
 
 
 @asynccontextmanager
@@ -52,6 +53,7 @@ app.add_middleware(
 
 app.include_router(products.router)
 app.include_router(payments.router)
+app.include_router(mpesa_router)
 
 
 @app.get("/")
@@ -71,3 +73,4 @@ def health_check():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)
+
