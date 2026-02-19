@@ -15,6 +15,13 @@ class Settings(BaseSettings):
         "https://your-frontend-domain.com"  
     ]
     
+    # M-Pesa
+    CONSUMER_KEY: str
+    CONSUMER_SECRET: str
+    SHORTCODE: str
+    PASSKEY: str
+    CALLBACK_URL: str
+
     class Config:
         env_file = ".env"
         case_sensitive = True
