@@ -14,7 +14,7 @@ def seed_products(db: Session):
             "id": "iphone-15-pro",
             "name": "iPhone 15 Pro",
             "brand": "Apple",
-            "price": 145000,
+            "price": 1,
             "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400",
             "specs": {
                 "storage": "256GB",
@@ -28,7 +28,7 @@ def seed_products(db: Session):
             "id": "samsung-s24-ultra",
             "name": "Galaxy S24 Ultra",
             "brand": "Samsung",
-            "price": 165000,
+            "price": 1,
             "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400",
             "specs": {
                 "storage": "512GB",
@@ -42,7 +42,7 @@ def seed_products(db: Session):
             "id": "pixel-8-pro",
             "name": "Pixel 8 Pro",
             "brand": "Google",
-            "price": 120000,
+            "price": 1,
             "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400",
             "specs": {
                 "storage": "256GB",
@@ -56,7 +56,7 @@ def seed_products(db: Session):
             "id": "oneplus-12",
             "name": "OnePlus 12",
             "brand": "OnePlus",
-            "price": 95000,
+            "price": 0,
             "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400",
             "specs": {
                 "storage": "256GB",
@@ -70,7 +70,7 @@ def seed_products(db: Session):
             "id": "xiaomi-14-pro",
             "name": "14 Pro",
             "brand": "Xiaomi",
-            "price": 85000,
+            "price": 0,
             "image": "https://images.unsplash.com/photo-1567581935884-3349723552ca?w=400",
             "specs": {
                 "storage": "512GB",
@@ -84,7 +84,7 @@ def seed_products(db: Session):
             "id": "iphone-14",
             "name": "iPhone 14",
             "brand": "Apple",
-            "price": 110000,
+            "price": 1,
             "image": "https://images.unsplash.com/photo-1663499482523-1239786b2e77?w=400",
             "specs": {
                 "storage": "128GB",
@@ -98,7 +98,7 @@ def seed_products(db: Session):
             "id": "samsung-a54",
             "name": "Galaxy A54",
             "brand": "Samsung",
-            "price": 45000,
+            "price": 0,
             "image": "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=400",
             "specs": {
                 "storage": "256GB",
@@ -112,7 +112,7 @@ def seed_products(db: Session):
             "id": "pixel-7a",
             "name": "Pixel 7a",
             "brand": "Google",
-            "price": 55000,
+            "price": 0,
             "image": "https://images.unsplash.com/photo-1598662779094-19d4bf5d0c4a?w=400",
             "specs": {
                 "storage": "128GB",
